@@ -11,7 +11,7 @@ n = int(input("Nhập số nguyên dương n = "))
 print("Tất cả các số nguyên tố nhỏ hơn ", n , "là: ")
 sb = ""
 if(n > 2):
-    sb = sb + "2" + ""
+    sb = sb + "2" + " "
 for i in range(3, n + 1):
     if (isPrimeNumber(i)):
         sb = sb + str(i) + " "
